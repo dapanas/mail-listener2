@@ -1,3 +1,11 @@
+
+
+**IMPORTANT NOTE:** This is a fork from [mail-listener-2](https://github.com/chirag04/mail-listener2)
+
+**MAIN CHANGES:** The main change is to prevent that the same email is processed multiple times, this only happens when inbox is being filled up at the same time as messages are being processed.
+
+The use of this package is the same as mail-listener-2,
+
 # Overview
 
 Mail-listener2 library for node.js. Get notification when new email arrived to inbox or when message metadata (e.g. flags) changes externally. Uses IMAP protocol.
@@ -10,7 +18,7 @@ Heavily inspired by [mail-listener](https://github.com/circuithub/mail-listener)
 
 Install
 
-`npm install mail-listener2`
+`npm install xs-mail-listener`
 
 
 JavaScript Code:
