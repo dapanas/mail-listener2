@@ -1,6 +1,6 @@
 {
   "name": "xs-mail-listener",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mail listener library for node.js. Get notification when new email arrived.",
   "dependencies": {
     "imap": "~0.8.14",
