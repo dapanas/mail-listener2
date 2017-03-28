@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git://github.com/myconnectif/mail-listener2.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "homepage": "https://github.com/myconnectif/mail-listener2",
   "keywords": [
     "mail",
