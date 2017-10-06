@@ -1,6 +1,6 @@
 {
-  "name": "mail-listener2",
-  "version": "0.3.1",
+  "name": "xs-mail-listener",
+  "version": "0.0.3",
   "description": "Mail listener library for node.js. Get notification when new email arrived.",
   "dependencies": {
     "imap": "~0.8.14",
@@ -9,9 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/chirag04/mail-listener2.git"
+    "url": "git://github.com/myconnectif/mail-listener2.git"
   },
-  "homepage": "https://github.com/chirag04/mail-listener2",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/myconnectif/mail-listener2",
   "keywords": [
     "mail",
     "job",
